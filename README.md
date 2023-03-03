@@ -13,7 +13,7 @@ This repository has been tested on the WUSTL-IIoT-2021 datasets. The code for th
 4) Run the test-main.py script from the root directory. Testing batch size can be adjusted to memory requirements.
 5) Use the data-visualization.ipynb Jupyter Notebook from the root directory to analyze the produced results.
 
-Note that the train-main.py script will always generate a new numerated model subfolder. The 'model_name' variable in the test-main.py script must aim to the desired model. Similarly, running test-main.py will generate a new output subfolder related to the employed model. The 'output' variable in the data-visualization.ipynb Notebook must refer to the desired output as well.
+Note that the train-main.py script will always generate a new numerated model subfolder. The 'model_name' variable in the test-main.py script must aim to the desired model. Similarly, running test-main.py will generate a new output subfolder relative to the used model. The 'output' variable in the data-visualization.ipynb Notebook must refer to the desired output as well.
 
 Different datasets can be used with minimal adjustment.
 
